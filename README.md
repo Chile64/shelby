@@ -14,3 +14,15 @@ Maxwell — Web3 Designer & Builder
 2026
 
 Building early. Shipping always.
+---
+
+## Day 1 – Shelby Builder Log
+
+- Initialized Shelby footprint repository.
+- Added early builder README and structure.
+- Created first Shelby UX/DX improvement issue.
+- Exploring Shelby-native storage + identity patterns on Aptos.
+
+Next:
+- Study Shelby primitives.
+- Propose one small UX improvement.
