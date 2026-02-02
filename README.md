@@ -61,3 +61,29 @@ Instead of querying raw chains repeatedly, applications can push processed datas
 Goal:  
 Make Shelby the **native analytics data layer for Web3 apps on Aptos**.
 
+---
+
+## Shelby Developer Flow Sketch
+
+High-level flow for building on Shelby:
+
+1. Install Shelby SDK / CLI.
+2. Authenticate with Aptos wallet / identity.
+3. Upload blob via RPC.
+4. Receive blob reference / ID.
+5. Configure access + read pricing.
+6. Applications perform paid reads.
+7. Aptos settles audits + payments.
+
+### DX Ideas
+
+- Simple init templates.
+- CLI scaffolding for projects.
+- SDK helpers for large file streaming.
+- Error handling for read failures.
+- Cost visibility in dev tools.
+
+Goal:  
+Make Shelby feel like a **drop-in data layer for Web3 developers**.
+
+
