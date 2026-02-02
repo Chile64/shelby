@@ -14,7 +14,10 @@ Maxwell — Web3 Designer & Builder
 2026
 
 Building early. Shipping always.
----
+
+Builder Identity: see `identity.md` for public Aptos address used for Shelby interactions.
+
+
 
 ## Day 1 – Shelby Builder Log
 
