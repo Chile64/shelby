@@ -26,3 +26,38 @@ Building early. Shipping always.
 Next:
 - Study Shelby primitives.
 - Propose one small UX improvement.
+
+---
+
+## Shelby Native Use Case – On-Chain Analytics Blobs
+
+Shelby can act as a high-performance analytics layer for blockchain data.
+
+Instead of querying raw chains repeatedly, applications can push processed datasets into Shelby as blobs and serve them with high-throughput reads.
+
+### Example Flow
+
+1. Indexer extracts Aptos on-chain data (txs, events, states).
+2. Data is aggregated into analytics blobs (JSON / Parquet / CSV).
+3. Blobs are uploaded via Shelby SDK to RPC servers.
+4. Storage Providers erasure-code and audit the data.
+5. Frontends and dashboards perform paid reads for fast analytics queries.
+6. Aptos settles usage, audits, and provider rewards.
+
+### Product Ideas
+
+- Shelby-backed blockchain explorers.
+- DeFi analytics dashboards.
+- Historical query APIs.
+- Time-series blob storage for research.
+
+### UX Ideas
+
+- Query cost preview before reads.
+- Streaming analytics for large blobs.
+- Identity-linked datasets.
+- Versioned analytics snapshots.
+
+Goal:  
+Make Shelby the **native analytics data layer for Web3 apps on Aptos**.
+
