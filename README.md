@@ -90,3 +90,33 @@ Goal:
 Make Shelby feel like a **drop-in data layer for Web3 developers**.
 
 
+
+---
+
+## Shelby SDK & CLI Ergonomics Notes
+
+From a first-time developer perspective, Shelby’s tooling should feel simple and predictable.
+
+### Ideal First-Time Flow
+
+1. Install Shelby CLI / SDK.
+2. Connect Aptos wallet.
+3. Initialize project (`shelby init`).
+4. Upload first blob.
+5. Get blob ID / reference.
+6. Perform paid read.
+7. Monitor cost + performance.
+
+### DX Improvement Ideas
+
+- `shelby init` project scaffolding.
+- Wallet auto-detection.
+- Upload progress indicators for large blobs.
+- Read cost preview before execution.
+- Simple blob explorer in CLI.
+- Better error messages for failed reads.
+
+Goal:  
+Reduce friction so developers can treat Shelby like **Web3-native S3**.
+
+
