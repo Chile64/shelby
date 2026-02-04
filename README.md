@@ -120,3 +120,47 @@ Goal:
 Reduce friction so developers can treat Shelby like **Web3-native S3**.
 
 
+## Shelby Mini-App Concept – Analytics Blob Dashboard
+
+A lightweight Shelby-native application for serving blockchain analytics from high-performance blobs.
+
+### Problem
+
+Blockchain explorers and analytics tools repeatedly query chains, which is slow and expensive for historical data.
+
+Shelby can store processed analytics as blobs and serve them with fast, paid reads.
+
+### Solution
+
+Build a Shelby-powered analytics dashboard that reads large datasets directly from Shelby instead of the chain.
+
+### Core Features
+
+- Upload analytics blobs (CSV / JSON / Parquet).
+- Store snapshots of indexed Aptos data.
+- Perform paid reads for dashboards.
+- Stream large analytics results.
+- Version datasets over time.
+
+### User Flow
+
+1. Indexer aggregates Aptos data.
+2. Data uploaded to Shelby via SDK.
+3. App fetches blobs via RPC.
+4. Shelby SPs serve reads at high throughput.
+5. Dashboard renders charts and tables.
+
+### Tech Sketch
+
+- Frontend: React / Next.js
+- Data layer: Shelby SDK
+- Wallet: Aptos wallet adapter
+- Charts: Recharts / D3
+- Backend: Shelby RPC + indexer
+
+### Goal
+
+Demonstrate Shelby as a **Web3-native analytics data layer**, not just storage.
+
+
+
