@@ -19,7 +19,7 @@ Builder Identity: see `identity.md` for public Aptos address used for Shelby int
 
 
 
-## Day 1 – Shelby Builder Log
+## Shelby Builder Log
 
 - Initialized Shelby footprint repository.
 - Added early builder README and structure.
@@ -157,6 +157,21 @@ Build a Shelby-powered analytics dashboard that reads large datasets directly fr
 - Wallet: Aptos wallet adapter
 - Charts: Recharts / D3
 - Backend: Shelby RPC + indexer
+
+- ---
+
+## Shelby Analytics Mini App (Shipped)
+
+This repo now includes a live Shelby-style mini app that:
+
+- Accepts wallet identity
+- Simulates Shelby blob uploads
+- Attaches metadata and timestamps
+- Renders blob analytics in the UI
+
+Purpose:
+Explore identity-aware analytics workflows and prepare for real Shelby SDK + RPC integration.
+
 
 ### Goal
 
