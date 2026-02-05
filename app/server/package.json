@@ -1,9 +1,9 @@
 {
-  "type": "module",
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "readBlob.js", "scripts": {
+  "main": "readBlob.js",
+  "scripts": {
     "upload": "node uploadBlob.js",
     "read": "node readBlob.js"
   },
@@ -11,5 +11,5 @@
   "author": "",
   "license": "ISC",
   "type": "module"
-
 }
+

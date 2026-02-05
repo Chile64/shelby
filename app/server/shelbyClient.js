@@ -1,5 +1,10 @@
 // shelbyClient.js
 // Shelby SDK wrapper (mocked for now)
+// Shelby Adapter
+// Builder: Maxwell Chile
+// Purpose: Lightweight client wrapper for Shelby blob operations
+// Dev Signal: Early Shelby mini-app experiment for analytics + storage
+
 
 export class ShelbyClient {
   constructor({ rpcUrl, walletAddress }) {
