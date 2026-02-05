@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "readBlob.js", "scripts": {
+    "upload": "node uploadBlob.js",
+    "read": "node readBlob.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+
+}
