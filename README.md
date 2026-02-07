@@ -178,4 +178,26 @@ Explore identity-aware analytics workflows and prepare for real Shelby SDK + RPC
 Demonstrate Shelby as a **Web3-native analytics data layer**, not just storage.
 
 
+## 🚧 Progress Update – Feb 7
+
+Current build status:
+
+✅ Backend running on port 3000  
+✅ Metrics endpoint live  
+✅ Upload endpoint live  
+✅ Wallet connection working via Aptos Wallet Standard  
+✅ Address rendering fixed (no React object crash)
+
+🟡 In progress:
+- Blob Explorer UI
+- Search function wiring
+
+Next session goals:
+- Fix runSearch scope issue
+- Complete history viewer
+- Add charts
+- Add download/export
+- Move toward on-chain anchoring
+
+Checkpoint committed & pushed.
 
